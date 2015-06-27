@@ -1,5 +1,4 @@
-﻿
-namespace AutoFacModules
+﻿namespace AutoFacModules
 {
     public interface IStudentRepository
     {
