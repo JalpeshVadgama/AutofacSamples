@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacBasic", "AutoFacBasi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInjection", "ConstructorInjection\ConstructorInjection.csproj", "{E478D34B-D7ED-4124-8570-A5F48880E595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacModules", "AutoFacModules\AutoFacModules.csproj", "{5330F4A8-61E1-4314-9263-18A31554154F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{E478D34B-D7ED-4124-8570-A5F48880E595}.Release|ARM.ActiveCfg = Release|Any CPU
 		{E478D34B-D7ED-4124-8570-A5F48880E595}.Release|x64.ActiveCfg = Release|Any CPU
 		{E478D34B-D7ED-4124-8570-A5F48880E595}.Release|x86.ActiveCfg = Release|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5330F4A8-61E1-4314-9263-18A31554154F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
