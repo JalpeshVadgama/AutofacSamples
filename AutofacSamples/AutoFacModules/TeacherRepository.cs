@@ -12,6 +12,7 @@ namespace AutoFacModules
             Console.WriteLine(string.Format("First Name: {0}", teacher.FirstName));
             Console.WriteLine(string.Format("Last Name: {0}", teacher.LastName));
             Console.WriteLine(string.Format("Subject: {0}", teacher.Subject));
+            Console.Read();
         }
     }
 }
