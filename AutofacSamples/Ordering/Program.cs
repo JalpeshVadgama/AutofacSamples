@@ -22,6 +22,8 @@ namespace Ordering
 
             Console.WriteLine("Default Behaviour");
             DefaultBehaviour(firstEmployee, secondEmployee);
+
+            Console.WriteLine("\n\nAnother Behaviour");
             AnotherBehaviour(firstEmployee, secondEmployee);
 
         }
