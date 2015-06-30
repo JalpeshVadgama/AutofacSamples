@@ -1,5 +1,4 @@
-﻿
-namespace Ordering
+﻿namespace Ordering
 {
     public class Employee
     {
