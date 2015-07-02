@@ -17,6 +17,8 @@ namespace NamedInstance
             firstCustomer.FirstName = "Jalpesh";
             firstCustomer.LastName="Vadgama";
             firstCustomer.City ="Ahmedabad";
+
+            PrintCustomer(firstCustomer);
            
         }
 
