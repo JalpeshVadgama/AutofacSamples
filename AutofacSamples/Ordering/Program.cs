@@ -60,7 +60,6 @@ namespace Ordering
             Console.WriteLine(string.Format("Id :{0}", employee.EmployeeId));
             Console.WriteLine(string.Format("First Name :{0}", employee.FirstName));
             Console.WriteLine(string.Format("Last Name :{0}", employee.EmployeeId));
-
         }
 
     }
