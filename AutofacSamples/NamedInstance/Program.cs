@@ -19,7 +19,6 @@ namespace NamedInstance
             firstCustomer.City ="Ahmedabad";
 
             PrintCustomer(firstCustomer);
-           
         }
 
         static void PrintCustomer(Customer customer)
