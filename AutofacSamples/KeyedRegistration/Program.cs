@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Autofac;
 
 namespace KeyedRegistration
 {
@@ -10,6 +8,27 @@ namespace KeyedRegistration
     {
         static void Main(string[] args)
         {
+           
+            var containerBuilder = new ContainerBuilder();
+            Customer keyCustomer = new Customer();
+            containerBuilder.RegisterType<Customer>().Keyed<Customer>(keyCustomer);
+            var container = containerBuilder.Build();
+
+            var customer = container.ResolveKeyed<Customer>(keyCustomer);
+            customer.CustomerId = 1;
+            customer.FirstName = "Jalpesh";
+            customer.LastName="Vadgama";
+            customer.City ="Ahmedabad";
+
+            PrintCustomer(customer);
+
+        }
+        static void PrintCustomer(Customer customer)
+        {
+            Console.WriteLine("Printing Customer");
+            Console.WriteLine(customer.FirstName);
+            Console.WriteLine(customer.LastName);
+            Console.WriteLine(customer.City);
         }
     }
 }
