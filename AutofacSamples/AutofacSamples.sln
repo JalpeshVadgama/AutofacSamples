@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "Ordering\Orderi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedInstance", "NamedInstance\NamedInstance.csproj", "{8697FFC2-3FFD-4FF6-BA2D-BD56DBEDA53D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyedRegistration", "KeyedRegistration\KeyedRegistration.csproj", "{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,16 @@ Global
 		{8697FFC2-3FFD-4FF6-BA2D-BD56DBEDA53D}.Release|ARM.ActiveCfg = Release|Any CPU
 		{8697FFC2-3FFD-4FF6-BA2D-BD56DBEDA53D}.Release|x64.ActiveCfg = Release|Any CPU
 		{8697FFC2-3FFD-4FF6-BA2D-BD56DBEDA53D}.Release|x86.ActiveCfg = Release|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|x64.ActiveCfg = Release|Any CPU
+		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
