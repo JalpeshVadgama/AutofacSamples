@@ -25,6 +25,7 @@ namespace KeyedRegistration
         static void PrintCustomer(Customer customer)
         {
             Console.WriteLine("Printing Customer");
+            Console.WriteLine(customer.CustomerId);
             Console.WriteLine(customer.FirstName);
             Console.WriteLine(customer.LastName);
             Console.WriteLine(customer.City);
