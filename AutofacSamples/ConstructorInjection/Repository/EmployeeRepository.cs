@@ -11,7 +11,6 @@ namespace ConstructorInjection.Repository
             Console.WriteLine(string.Format("First Name : {0}", employee.FirstName));
             Console.WriteLine(string.Format("Last Name : {0}", employee.LastName));
             Console.WriteLine(string.Format("Designation : {0}", employee.Designation));
-
         }
     }
 }
