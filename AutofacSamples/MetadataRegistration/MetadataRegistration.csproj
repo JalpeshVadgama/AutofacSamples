@@ -44,6 +44,7 @@
     <Compile Include="DatabaseLogger.cs" />
     <Compile Include="FileLogger.cs" />
     <Compile Include="ILogger.cs" />
+    <Compile Include="LogMetadata.cs" />
     <Compile Include="LogType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
