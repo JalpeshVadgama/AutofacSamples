@@ -1,6 +1,6 @@
 namespace MetadataRegistration
 {
-    public class LogMetadata
+    public interface ILogMetadata
     {
         LogType Type { get; set; }
     }
