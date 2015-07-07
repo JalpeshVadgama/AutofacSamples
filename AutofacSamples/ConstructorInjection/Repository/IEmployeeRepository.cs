@@ -6,4 +6,6 @@ namespace ConstructorInjection.Repository
     {
         void Print(Employee employee);
     }
+
+
 }

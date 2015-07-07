@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedInstance", "NamedInsta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyedRegistration", "KeyedRegistration\KeyedRegistration.csproj", "{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataRegistration", "MetadataRegistration\MetadataRegistration.csproj", "{28FADD58-A1EF-49AC-AED7-226F000BD4C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,16 @@ Global
 		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|ARM.ActiveCfg = Release|Any CPU
 		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|x64.ActiveCfg = Release|Any CPU
 		{03DBD011-3F7D-4D81-9B85-4728C21FBCFC}.Release|x86.ActiveCfg = Release|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{28FADD58-A1EF-49AC-AED7-226F000BD4C4}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
